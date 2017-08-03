@@ -13,7 +13,7 @@ public class JavaKafkaSimpleConsumerAPITest {
     public void consumerAPITest(){
         JavaKafkaSimpleConsumerAPI example = new JavaKafkaSimpleConsumerAPI();
         long maxReads = 300;
-        String topic = "test_sdc";
+        String topic = "MODEL_TYPETopicd149cc0b-a689-4e96-ac65-6b03a7e532c2";
         int partitionID = 0;
 
         KafkaTopicPartitionInfo topicPartitionInfo = new KafkaTopicPartitionInfo(topic, partitionID);

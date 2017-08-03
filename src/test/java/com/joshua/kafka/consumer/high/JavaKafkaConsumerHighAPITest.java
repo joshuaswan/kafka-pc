@@ -13,7 +13,7 @@ public class JavaKafkaConsumerHighAPITest {
     public void kafkaConsumerHighAPITest(){
         String zookeeper = "10.1.198.60:2181";
         String groupId = "group1";
-        String topic = "test_sdc";
+        String topic = "MODEL_DATABASETopicd149cc0b-a689-4e96-ac65-6b03a7e532c2";
         int threads = 1;
 
         JavaKafkaConsumerHighAPI example = new JavaKafkaConsumerHighAPI(topic, threads, zookeeper, groupId);
